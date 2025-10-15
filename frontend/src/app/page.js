@@ -1,7 +1,7 @@
 'use client';
 
 import { useEffect } from 'react';
-import { db } from '@/lib/firebase';
+import { db } from '@/app/lib/firebase'; // <-- RUTA CORREGIDA
 
 export default function Home() {
   useEffect(() => {
@@ -26,4 +26,3 @@ export default function Home() {
     </main>
   );
 }
-
